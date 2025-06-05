@@ -22,7 +22,7 @@ const WebSocket = require('ws');
 const fs = require('fs');
 const path = require('path');
 
-const wss = new WebSocket.Server({ port: 3000 });
+const wss = new WebSocket.Server({ port: 3001 });
 let counter = 0;
 
 wss.on('connection', (ws) => {
